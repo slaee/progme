@@ -1,0 +1,19 @@
+{
+  "name": "progme",
+  "version": "1.0.0",
+  "description": "Nice framework for developing phonegap app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/newbietot/progme.git"
+  },
+  "author": "Sly Kint A. Bacalso",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/newbietot/progme/issues"
+  },
+  "homepage": "https://github.com/newbietot/progme#readme"
+}
