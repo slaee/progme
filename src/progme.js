@@ -1,4 +1,4 @@
-import './css/progme.css';
+import './css/progme.scss';
 
 import createTag from "./js/html-tag";
 import "./js/polyfill";
