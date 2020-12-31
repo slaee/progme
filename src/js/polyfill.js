@@ -1,3 +1,9 @@
+/**
+ * Javascript polyfill to check if the functions of the htmt-tag.js 
+ * working well else 
+ * define here the functions to avoid error in the browser
+ */
+
 if (!("isConnected" in Node.prototype)) {
     Object.defineProperty(Node.prototype, "isConnected", {
         get() {
@@ -11,6 +17,7 @@ if (!("isConnected" in Node.prototype)) {
         },
     });
 }
+
 
 if (!("get" in Element.prototype)) {
     Object.defineProperty(Node.prototype, "get", {

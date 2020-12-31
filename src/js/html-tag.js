@@ -12,7 +12,7 @@ function createTag(tag_name, property = {}) {
             ? tag_name
             : document.createElement(tag_name);
 
-    for (key in property) {
+    for (let key in property) {
         if (property[key] === undefined) continue;
 
         if (key === "child") {
